@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreyBrushThreepwood.MainPage">
+
+    <VerticalStackLayout>
+        <Label Text="I am a label with a grey background, but I throw an error"
+           Background="Grey" />
+
+        <Label Text="I am a label with a gray background, I'm ok"
+               Background="Gray" />
+
+        <Label Text="I am a label with a grey background colour, and I'm fine too"
+           BackgroundColor="Grey" />
+    </VerticalStackLayout>
+
+    
+    
+
+</ContentPage>
